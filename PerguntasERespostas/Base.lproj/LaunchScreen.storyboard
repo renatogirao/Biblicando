@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +22,52 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="céu2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L0T-hX-VZA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGOBIBLICANDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="ja8-4N-o24">
+                                <rect key="frame" x="16" y="106" width="343" height="2264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGOBIBLICANDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="U6g-vS-vJE">
+                                <rect key="frame" x="16" y="43" width="343" height="172"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="U6g-vS-vJE" secondAttribute="height" multiplier="343:172" id="o1Z-AC-kQf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Por favor, aguarde um instante, o jogo já vai começar..." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xey-Kw-o7T">
+                                <rect key="frame" x="46" y="295" width="283" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="283" id="h8S-0a-uwG"/>
+                                    <constraint firstAttribute="height" constant="75.5" id="xKx-t0-Urb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="U6g-vS-vJE" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="23" id="0Ia-ja-mul"/>
+                            <constraint firstItem="Xey-Kw-o7T" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DCo-0A-g7E"/>
+                            <constraint firstItem="U6g-vS-vJE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VJ3-Tn-gWJ"/>
+                            <constraint firstItem="U6g-vS-vJE" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="VdA-2c-bBs"/>
+                            <constraint firstItem="U6g-vS-vJE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="WP7-3u-rUd"/>
+                            <constraint firstItem="Xey-Kw-o7T" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YeR-48-O5E"/>
+                            <constraint firstItem="Xey-Kw-o7T" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="jjw-cH-lTp"/>
+                            <constraint firstItem="Xey-Kw-o7T" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kPi-Hm-aA4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LOGOBIBLICANDO.png" width="2455" height="2264"/>
+        <image name="céu2.jpg" width="564" height="1057"/>
+    </resources>
 </document>

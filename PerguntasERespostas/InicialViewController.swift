@@ -7,20 +7,30 @@
 //
 
 import UIKit
+import AVFoundation
 
 class InicialViewController: UIViewController {
-
+    @IBOutlet weak var buttonStartGame: UIButton!
+    @IBOutlet weak var buttonContact: UIButton!
+    @IBOutlet weak var buttonAbout: UIButton!
+    @IBOutlet weak var logoImage: UIImageView!
+    
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+//        buttonStartGame.layer.cornerRadius = 15
+//        buttonContact.layer.cornerRadius = 15
+//        buttonAbout.layer.cornerRadius = 15
+      
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation

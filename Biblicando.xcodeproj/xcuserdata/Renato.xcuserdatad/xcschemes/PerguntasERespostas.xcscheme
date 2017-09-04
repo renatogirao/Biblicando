@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88EF1BA61E71E85E00F74171"
-               BuildableName = "PerguntasERespostas.app"
-               BlueprintName = "PerguntasERespostas"
-               ReferencedContainer = "container:PerguntasERespostas.xcodeproj">
+               BuildableName = "Biblicando.app"
+               BlueprintName = "Biblicando"
+               ReferencedContainer = "container:Biblicando.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88EF1BBA1E71E86300F74171"
-               BuildableName = "PerguntasERespostasTests.xctest"
-               BlueprintName = "PerguntasERespostasTests"
-               ReferencedContainer = "container:PerguntasERespostas.xcodeproj">
+               BuildableName = "BiblicandoTests.xctest"
+               BlueprintName = "BiblicandoTests"
+               ReferencedContainer = "container:Biblicando.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88EF1BC51E71E86300F74171"
-               BuildableName = "PerguntasERespostasUITests.xctest"
-               BlueprintName = "PerguntasERespostasUITests"
-               ReferencedContainer = "container:PerguntasERespostas.xcodeproj">
+               BuildableName = "BiblicandoUITests.xctest"
+               BlueprintName = "BiblicandoUITests"
+               ReferencedContainer = "container:Biblicando.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88EF1BA61E71E85E00F74171"
-            BuildableName = "PerguntasERespostas.app"
-            BlueprintName = "PerguntasERespostas"
-            ReferencedContainer = "container:PerguntasERespostas.xcodeproj">
+            BuildableName = "Biblicando.app"
+            BlueprintName = "Biblicando"
+            ReferencedContainer = "container:Biblicando.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88EF1BA61E71E85E00F74171"
-            BuildableName = "PerguntasERespostas.app"
-            BlueprintName = "PerguntasERespostas"
-            ReferencedContainer = "container:PerguntasERespostas.xcodeproj">
+            BuildableName = "Biblicando.app"
+            BlueprintName = "Biblicando"
+            ReferencedContainer = "container:Biblicando.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88EF1BA61E71E85E00F74171"
-            BuildableName = "PerguntasERespostas.app"
-            BlueprintName = "PerguntasERespostas"
-            ReferencedContainer = "container:PerguntasERespostas.xcodeproj">
+            BuildableName = "Biblicando.app"
+            BlueprintName = "Biblicando"
+            ReferencedContainer = "container:Biblicando.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

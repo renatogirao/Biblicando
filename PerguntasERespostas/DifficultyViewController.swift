@@ -9,11 +9,21 @@
 import UIKit
 
 class DifficultyViewController: UIViewController {
-
+    @IBOutlet weak var buttonChooseEasy: UIButton!
+    @IBOutlet weak var buttonChooseMedium: UIButton!
+    @IBOutlet weak var labelChooseYourDifficulty: UILabel!
+    @IBOutlet weak var buttonChooseHard: UIButton!
+   
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//        buttonChooseEasy.layer.cornerRadius = 15
+//        buttonChooseMedium.layer.cornerRadius = 15
+//        buttonChooseHard.layer.cornerRadius = 15
+        labelChooseYourDifficulty.layer.cornerRadius = 15
 
-        // Do any additional setup after loading the view.
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,7 +31,9 @@ class DifficultyViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
+    
+    
     /*
     // MARK: - Navigation
 
