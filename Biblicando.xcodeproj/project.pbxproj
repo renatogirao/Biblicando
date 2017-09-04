@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8823AED31E84603300585C90 /* JesusTriste.png in Resources */ = {isa = PBXBuildFile; fileRef = 8823AED11E84603300585C90 /* JesusTriste.png */; };
+		8823AED41E84603300585C90 /* JesusFeliz.png in Resources */ = {isa = PBXBuildFile; fileRef = 8823AED21E84603300585C90 /* JesusFeliz.png */; };
+		88279A431E820D560032A216 /* LOGOBIBLICANDO.png in Resources */ = {isa = PBXBuildFile; fileRef = 88279A421E820D560032A216 /* LOGOBIBLICANDO.png */; };
+		88279A451E8323C20032A216 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88279A441E8323C10032A216 /* DifficultyViewController.swift */; };
+		882CB7EF1E8991F10071AB3D /* céu2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 882CB7EE1E8991F10071AB3D /* céu2.jpg */; };
+		883A7D3F1E8F794900B004A5 /* astonished.png in Resources */ = {isa = PBXBuildFile; fileRef = 883A7D3A1E8F794800B004A5 /* astonished.png */; };
+		883A7D431E8F794900B004A5 /* scared.png in Resources */ = {isa = PBXBuildFile; fileRef = 883A7D3E1E8F794800B004A5 /* scared.png */; };
+		883B62E71E81AA9500B36BDF /* nuvens e espaço.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 883B62E61E81AA9400B36BDF /* nuvens e espaço.jpg */; };
+		883EFDE51E7CAAE2005C542D /* InicialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883EFDE41E7CAAE2005C542D /* InicialViewController.swift */; };
+		883EFDEB1E7D772E005C542D /* EasyDifficultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883EFDEA1E7D772D005C542D /* EasyDifficultViewController.swift */; };
+		883EFDED1E7D774B005C542D /* NormalDifficultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883EFDEC1E7D774B005C542D /* NormalDifficultViewController.swift */; };
+		883EFDEF1E7D7784005C542D /* HardDifficultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883EFDEE1E7D7784005C542D /* HardDifficultViewController.swift */; };
+		88B7DBF91E787591002B15B3 /* 14339-NPQ1I1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88B7DBF81E787590002B15B3 /* 14339-NPQ1I1.jpg */; };
 		88EF1BAB1E71E86200F74171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF1BAA1E71E86200F74171 /* AppDelegate.swift */; };
-		88EF1BAD1E71E86200F74171 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF1BAC1E71E86200F74171 /* ViewController.swift */; };
 		88EF1BB01E71E86200F74171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EF1BAE1E71E86200F74171 /* Main.storyboard */; };
 		88EF1BB21E71E86200F74171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EF1BB11E71E86200F74171 /* Assets.xcassets */; };
 		88EF1BB51E71E86200F74171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EF1BB31E71E86200F74171 /* LaunchScreen.storyboard */; };
 		88EF1BC01E71E86300F74171 /* PerguntasERespostasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF1BBF1E71E86300F74171 /* PerguntasERespostasTests.swift */; };
 		88EF1BCB1E71E86300F74171 /* PerguntasERespostasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF1BCA1E71E86300F74171 /* PerguntasERespostasUITests.swift */; };
+		88EF1BDB1E71EF0E00F74171 /* modeloQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF1BDA1E71EF0E00F74171 /* modeloQuiz.swift */; };
+		88EF1BDD1E72187D00F74171 /* ShuffleFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF1BDC1E72187D00F74171 /* ShuffleFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8823AED11E84603300585C90 /* JesusTriste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JesusTriste.png; path = ../../../../Profissional/JesusTriste.png; sourceTree = "<group>"; };
+		8823AED21E84603300585C90 /* JesusFeliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JesusFeliz.png; path = ../../../../Profissional/JesusFeliz.png; sourceTree = "<group>"; };
+		88279A421E820D560032A216 /* LOGOBIBLICANDO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGOBIBLICANDO.png; path = ../../../../../Desktop/LOGOBIBLICANDO.png; sourceTree = "<group>"; };
+		88279A441E8323C10032A216 /* DifficultyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
+		882CB7EE1E8991F10071AB3D /* céu2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "céu2.jpg"; path = "../../../../Aplicativos/Backgrounds/céu2.jpg"; sourceTree = "<group>"; };
+		883A7D3A1E8F794800B004A5 /* astonished.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = astonished.png; path = ../../../../../Downloads/astonished.png; sourceTree = "<group>"; };
+		883A7D3E1E8F794800B004A5 /* scared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scared.png; path = ../../../../../Downloads/scared.png; sourceTree = "<group>"; };
+		883B62E61E81AA9400B36BDF /* nuvens e espaço.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nuvens e espaço.jpg"; path = "../../../../Aplicativos/Backgrounds/nuvens e espaço.jpg"; sourceTree = "<group>"; };
+		883EFDE41E7CAAE2005C542D /* InicialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicialViewController.swift; sourceTree = "<group>"; };
+		883EFDEA1E7D772D005C542D /* EasyDifficultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyDifficultViewController.swift; sourceTree = "<group>"; };
+		883EFDEC1E7D774B005C542D /* NormalDifficultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalDifficultViewController.swift; sourceTree = "<group>"; };
+		883EFDEE1E7D7784005C542D /* HardDifficultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardDifficultViewController.swift; sourceTree = "<group>"; };
+		88B7DBF81E787590002B15B3 /* 14339-NPQ1I1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "14339-NPQ1I1.jpg"; path = "../../../../../Downloads/Blue-background-with-white-clouds/14339-NPQ1I1.jpg"; sourceTree = "<group>"; };
 		88EF1BA71E71E86200F74171 /* PerguntasERespostas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerguntasERespostas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EF1BAA1E71E86200F74171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88EF1BAC1E71E86200F74171 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88EF1BAF1E71E86200F74171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EF1BB11E71E86200F74171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EF1BB41E71E86200F74171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,8 @@
 		88EF1BC61E71E86300F74171 /* PerguntasERespostasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerguntasERespostasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EF1BCA1E71E86300F74171 /* PerguntasERespostasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerguntasERespostasUITests.swift; sourceTree = "<group>"; };
 		88EF1BCC1E71E86300F74171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EF1BDA1E71EF0E00F74171 /* modeloQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modeloQuiz.swift; sourceTree = "<group>"; };
+		88EF1BDC1E72187D00F74171 /* ShuffleFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShuffleFunction.swift; path = ../../../../../Downloads/arquivosCurso1_Modulo4_iOS_Swift2.0/ShuffleFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88EBF7681E773DCA007E73B6 /* Imagens das Perguntas */ = {
+			isa = PBXGroup;
+			children = (
+				883A7D3A1E8F794800B004A5 /* astonished.png */,
+				883A7D3E1E8F794800B004A5 /* scared.png */,
+				882CB7EE1E8991F10071AB3D /* céu2.jpg */,
+				8823AED11E84603300585C90 /* JesusTriste.png */,
+				8823AED21E84603300585C90 /* JesusFeliz.png */,
+				88279A421E820D560032A216 /* LOGOBIBLICANDO.png */,
+				883B62E61E81AA9400B36BDF /* nuvens e espaço.jpg */,
+				88B7DBF81E787590002B15B3 /* 14339-NPQ1I1.jpg */,
+			);
+			name = "Imagens das Perguntas";
+			sourceTree = "<group>";
+		};
 		88EF1B9E1E71E85E00F74171 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +140,16 @@
 		88EF1BA91E71E86200F74171 /* PerguntasERespostas */ = {
 			isa = PBXGroup;
 			children = (
+				88EBF7681E773DCA007E73B6 /* Imagens das Perguntas */,
+				88EF1BDC1E72187D00F74171 /* ShuffleFunction.swift */,
+				88EF1BDA1E71EF0E00F74171 /* modeloQuiz.swift */,
 				88EF1BAA1E71E86200F74171 /* AppDelegate.swift */,
-				88EF1BAC1E71E86200F74171 /* ViewController.swift */,
+				883EFDE41E7CAAE2005C542D /* InicialViewController.swift */,
+				88279A441E8323C10032A216 /* DifficultyViewController.swift */,
 				88EF1BAE1E71E86200F74171 /* Main.storyboard */,
+				883EFDEA1E7D772D005C542D /* EasyDifficultViewController.swift */,
+				883EFDEC1E7D774B005C542D /* NormalDifficultViewController.swift */,
+				883EFDEE1E7D7784005C542D /* HardDifficultViewController.swift */,
 				88EF1BB11E71E86200F74171 /* Assets.xcassets */,
 				88EF1BB31E71E86200F74171 /* LaunchScreen.storyboard */,
 				88EF1BB61E71E86200F74171 /* Info.plist */,
@@ -232,7 +282,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8823AED31E84603300585C90 /* JesusTriste.png in Resources */,
+				883A7D431E8F794900B004A5 /* scared.png in Resources */,
+				883A7D3F1E8F794900B004A5 /* astonished.png in Resources */,
 				88EF1BB51E71E86200F74171 /* LaunchScreen.storyboard in Resources */,
+				883B62E71E81AA9500B36BDF /* nuvens e espaço.jpg in Resources */,
+				88B7DBF91E787591002B15B3 /* 14339-NPQ1I1.jpg in Resources */,
+				882CB7EF1E8991F10071AB3D /* céu2.jpg in Resources */,
+				8823AED41E84603300585C90 /* JesusFeliz.png in Resources */,
+				88279A431E820D560032A216 /* LOGOBIBLICANDO.png in Resources */,
 				88EF1BB21E71E86200F74171 /* Assets.xcassets in Resources */,
 				88EF1BB01E71E86200F74171 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88EF1BAD1E71E86200F74171 /* ViewController.swift in Sources */,
+				883EFDED1E7D774B005C542D /* NormalDifficultViewController.swift in Sources */,
+				883EFDEF1E7D7784005C542D /* HardDifficultViewController.swift in Sources */,
+				88EF1BDD1E72187D00F74171 /* ShuffleFunction.swift in Sources */,
+				88279A451E8323C20032A216 /* DifficultyViewController.swift in Sources */,
+				88EF1BDB1E71EF0E00F74171 /* modeloQuiz.swift in Sources */,
+				883EFDE51E7CAAE2005C542D /* InicialViewController.swift in Sources */,
 				88EF1BAB1E71E86200F74171 /* AppDelegate.swift in Sources */,
+				883EFDEB1E7D772E005C542D /* EasyDifficultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +569,7 @@
 				88EF1BD11E71E86300F74171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88EF1BD21E71E86300F74171 /* Build configuration list for PBXNativeTarget "PerguntasERespostasTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +578,7 @@
 				88EF1BD41E71E86300F74171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88EF1BD51E71E86300F74171 /* Build configuration list for PBXNativeTarget "PerguntasERespostasUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +587,7 @@
 				88EF1BD71E71E86300F74171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
